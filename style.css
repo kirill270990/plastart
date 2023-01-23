@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+ul li {
+    list-style: none;
+    margin: 1em 0;
+}
+
+/* Обертка */
+.bottomHeader .wrapper {
+    width: 75%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHeader .wrapper {
+    width: 75%;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Общий класс для ссылок */
+.orange {
+    color: #ff8853;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Верхний уравень шапки */
+.topHeader {
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background-color: #2a3141;
+}
+
+/* Блок с сервисом и локацией */
+.locationService {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location, .service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location { width: 40%; }
+.service { width: 53%; }
+
+.location img, .linkwrapp a img {
+    width: 17px;
+}
+
+/* Контакты */
+.contactUs {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.post {
+    width: 16px;
+}
+
+img.tel {
+    width: 17px;
+}
+
+.postWrapp, .telWrapp, .linkwrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkwrapp, .telWrapp {
+    width: 150px;
+}
+
+.postWrapp {
+    width: 180px;
+}
+
+
+/* Нижняя шапка */
+/* Меню и лого */
+.menuLogo {
+    display: flex;
+    position: relative;
+}
+
+.logo, .catalog {
+    width: 200px;
+}
+
+.catalog {
+    background-color: #ff8853;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    font-size: 2em;
+    font-family: 'Roboto-Black';
+    text-align: center;
+}
+  
+.catalog img {
+    width: 21px;
+    margin-right: 0.5em;  
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: none;
+}
+
+.block {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: block;
+}
+
+/* Поиск */
+
+.search {
+    border: 1px solid #aeaaaa;
+    width: 29%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 0.7em;
+}
+
+.search a {
+    background-color: #eaecf0;
+    color: #2a3141;
+    padding: 0.7em 1em;
+
+}
+
+form {
+    width: 100%;
+    position: relative;
+}
+
+input[type="search"] {
+    width: 100%;
+    height: 39px;
+    padding: 0.5em;
+    border: none;
+}
+
+.search img {
+    width: 20px;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+}
+
+/* Кнопки */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.btn {
+    background-color: #eaecf0;
+    padding: 1em 1em;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.btn img {
+    width: 35px;
+}
+
+
+/* Меню */
+
+ul.menu {
+    background: #eaecf0;
+    width: 265px;
+    padding: 1em;
+}
+
+.menu li a {
+    color: #000;
+}
